@@ -1,6 +1,6 @@
 export DOCKER_ORG ?= unionpos
 export DOCKER_IMAGE ?= $(DOCKER_ORG)/chamber
-export DOCKER_TAG ?= 2.5.0
+export DOCKER_TAG ?= 2.7.5
 export DOCKER_IMAGE_NAME ?= $(DOCKER_IMAGE):$(DOCKER_TAG)
 export DOCKER_BUILD_FLAGS =
 
